@@ -1,6 +1,6 @@
-# Web Server Log Parser
+# CS6120 Natural Language Processing
 
-## How to Run the Code
+## Text Processing : Web Server Log Parser
 
 1. **Prerequisites:**
    - Ensure Python 3.x is installed on your system.
