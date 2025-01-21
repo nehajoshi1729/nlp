@@ -9,10 +9,14 @@
 2. **Steps to Run:**
    - The log file (`access-1.log`) is placed in the logs/ directory.
    - The web parser script is placed in the /parser directory.
+   - The unit tests for the parser are in the tests/
    - Run the script using the command :
      ```
      cd parser
      python web_log_parser.py
+     
+     From the root directory (to run the unit tests),
+     python -m unittest tests/test_web_log_parser.py
      ```
    - The script will:
      - Parse the log file.
