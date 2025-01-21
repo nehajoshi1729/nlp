@@ -1,7 +1,7 @@
 import unittest
 from collections import Counter
 
-from parser.web_log_parser import parse_log_line, filter_and_classify_logs, analyze_logs, \
+from text_processing.parser import parse_log_line, filter_and_classify_logs, analyze_logs, \
     advanced_analysis
 
 
