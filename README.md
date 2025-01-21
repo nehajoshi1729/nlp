@@ -7,16 +7,18 @@
    - This script does not rely on external libraries beyond Python's standard library.
 
 2. **Steps to Run:**
-   - Place the log file (`access-1.log`) in the logs/ directory.
-   - Run the script using the command:
+   - The log file (`access-1.log`) is placed in the logs/ directory.
+   - The web parser script is placed in the /parser directory.
+   - Run the script using the command :
      ```
-     python script_name.py
+     cd parser
+     python web_log_parser.py
      ```
    - The script will:
      - Parse the log file.
      - Filter and classify the entries.
      - Perform analysis and generate a summary report.
-     - Save the parsed logs to a CSV file (`parsed_logs.csv`).
+     - Save the parsed logs to a CSV file in logs/ (`parsed_logs.csv`).
 
 3. **Output:**
    - Console output includes:
@@ -68,5 +70,4 @@ The regular expression used for parsing log lines is:
 
 ---
 
-For any issues or questions, please contact the author or refer to the script comments for clarification.
 
